@@ -1,0 +1,6 @@
+# SYNTHETIC five-record hand-written demo
+{"id":"tiny-1","synthetic":true,"operations":[{"op":"write","path":"a","content":"ok"}]}
+{"id":"tiny-2","synthetic":true,"operations":[]}
+{"id":"tiny-3","synthetic":true,"operations":[{"op":"read","path":"a"}]}
+{"id":"tiny-4","synthetic":true,"operations":[{"op":"write","path":"../escape","content":"x"}]}
+{"id":"tiny-5","synthetic":true,"operations":[{"op":"exec","path":"shell"}]}
