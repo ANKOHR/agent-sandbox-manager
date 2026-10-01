@@ -1,0 +1,5 @@
+Tests: 29 passed (python -m pytest -q).
+Local implementation commit: 89e1991ca4396744798b0dd3827798cdc9276545
+Measured installed CLI demo: 0.662 seconds for all 200 synthetic records.
+
+Built a deterministic Python asm CLI with fixtures, run, report, validate and inspect commands; a pure restricted declarative interpreter with per-job virtual filesystems, transactional rollback, path policy and resource limits; independent synthetic ground truth; exact reports with provenance; atomic result/report writes; and adversarial tests. README, lessons, measured evidence, a five-record example and the two-week improvement hook are included. This tool does not isolate arbitrary host programs. Real-use verdict remains pending the required evidence window. No publication or network calls were performed. This file records the implementation commit; a subsequent documentation commit adds this completion record.
